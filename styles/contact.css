@@ -1,0 +1,29 @@
+.apresentacao {
+    flex-direction: column;
+    gap: 16px;
+}
+
+.titulo {
+    color: var(--cor-secundaria);
+    font-family: var(--font-principal);
+    font-size: 32px;
+    padding-top: 16px;
+}
+
+.informacoes {
+    width: 811px;
+    gap: 16px;
+}
+
+.informacoes__dados {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.informacoes__dados__texto {
+    display: flex;
+    align-items: center;
+    font-family: var(--font-principal);
+    color: var(--cor-secundaria);
+}

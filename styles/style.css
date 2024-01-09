@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Lexend+Deca:wght@200;400;600&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria: #163020;
+    --cor-secundaria: #304D30;
+    --cor-terciaria: #B6C4B6;
+    --cor-quaternaria: #EEF0E5;
+
+    --font-principal: 'Lexend Deca', sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--cor-quaternaria);
+}
+
+.logo__chale {
+    position: absolute;
+    left: 19%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header {
+    background-color: #304D30;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho__nav {
+    display: flex;
+    gap: 72px;
+    margin: 45px;
+}
+
+.cabecalho__nav__link {
+    text-decoration: none;
+    color: var(--cor-quaternaria);
+    font-family: var(--font-principal);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cabecalho__nav__link:hover {
+    color: var(--cor-terciaria);
+}
+
+.apresentacao{
+    padding: 2.1% 19%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 73.5%;
+}
+
+.apresentacao__conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 457px;
+    gap: 32px;
+}
+
+.apresentacao__conteudo__titulo {
+    color: var(--cor-primaria);
+    font-family: var(--font-principal);
+    font-size: 32px;
+    font-weight: 600px;
+}
+
+.apresentacao__conteudo__texto {
+    color: var(--cor-primaria);
+    font-family: var(--font-principal);
+    font-size: 20px;
+}
+
+.apresentacao__conteudo__botao {
+    background-color: var(--cor-primaria);
+    cursor: pointer;
+    width: 293px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.apresentacao__conteudo__botao:hover {
+    background-color: var(--cor-secundaria);
+}
+
+.apresentacao__conteudo__botaotexto {
+    color: #EEF0E5;
+    font-family: var(--font-principal);
+    font-size: 24;
+    font-weight: 400;
+    text-decoration: none;
+    user-select: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    padding-top: 17.5px;
+    padding-bottom: 17.5px;
+    font-family: var(--font-principal);
+    font-size: 24;
+    font-weight: 600;
+}

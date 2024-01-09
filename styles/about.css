@@ -1,0 +1,19 @@
+.apresentacao {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 24px;
+    padding: 2.26% 25%;
+}
+
+.titulo {
+    color: var(--cor-secundaria);
+    font-family: var(--font-principal);
+    font-size: 32px;
+}
+
+.texto {
+    font-family: var(--font-principal);
+    color: var(--cor-secundaria);
+    font-size: 20px;
+}
